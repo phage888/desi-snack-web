@@ -43,16 +43,13 @@ function App() {
     return acc;
   }, {} as Record<string, MenuItem[]>);
 
-  const categoryOrder = [ 
-    'Desi Snacks & Meal',  'Desi Snacks & Meal are only available from 10 AM to 5 PM', 
+  const categoryOrder = [
+    'Desi Snacks & Meal',
     'Pav Bhaji Special',
-    'Pasta & Chinese',
-    'Pizza',
-    'Burgers',
+    'Paratha',
     'Sandwiches',
-    'Fries & Sides',
-    'Momos',
-    'Combos',
+    'Pizza',
+    'Pasta & Chinese',
   ];
 
   if (isCheckoutOpen) {
