@@ -23,17 +23,15 @@ export default function MenuItem({ item }: MenuItemProps) {
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-5 border border-gray-100">
-      <div className="flex justify-between items-start mb-3">
-        <div className="flex-1">
-          <h3 className="font-bold text-gray-800 text-lg mb-1">{item.name}</h3>
-          {item.description && (
-            <p className="text-sm text-gray-600">{item.description}</p>
-          )}
-        </div>
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-all p-6 border border-gray-100">
+      <div className="mb-4">
+        <h3 className="font-bold text-gray-900 text-xl mb-2">{item.name}</h3>
+        {item.description && (
+          <p className="text-sm text-gray-600">{item.description}</p>
+        )}
       </div>
 
-      <div className="flex items-center justify-between mt-4">
+      <div className="flex items-end justify-between mt-6">
         <div>
           {hasHalfFull ? (
             <div className="flex gap-2 items-center">
@@ -66,7 +64,7 @@ export default function MenuItem({ item }: MenuItemProps) {
         </div>
         <button
           onClick={handleAddToCart}
-          className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full font-semibold flex items-center gap-2 transition-all shadow-md hover:shadow-lg"
+          className="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-full font-semibold flex items-center gap-2 transition-all shadow-md hover:shadow-lg"
         >
           <Plus size={18} />
           Add

@@ -58,7 +58,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50">
+    <div className="min-h-screen bg-orange-50">
       <Header onCartClick={() => setIsCartOpen(true)} />
 
       <Cart
@@ -70,9 +70,9 @@ function App() {
         }}
       />
 
-      <main className="container mx-auto px-4 py-8">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+      <main className="container mx-auto px-6 py-12">
+        <div className="text-center mb-16">
+          <h2 className="text-5xl font-bold text-gray-900 mb-4">
             Our Menu
           </h2>
           <p className="text-gray-600 text-lg">
