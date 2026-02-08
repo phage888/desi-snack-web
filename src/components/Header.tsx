@@ -17,7 +17,7 @@ export default function Header({ onCartClick }: HeaderProps) {
             <h1 className="text-2xl md:text-3xl font-bold">Deepika's Kitchen Diary</h1>
             <p className="text-sm md:text-base text-orange-100 flex items-center gap-2 mt-1">
               <Phone size={16} />
-              7248627794
+              7599172232
             </p>
           </div>
           <button

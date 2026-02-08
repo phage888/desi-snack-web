@@ -44,6 +44,7 @@ function App() {
   }, {} as Record<string, MenuItem[]>);
 
   const categoryOrder = [
+    'Combo',
     'Desi Snacks & Meal',
     'Pav Bhaji Special',
     'Paratha',
@@ -101,7 +102,7 @@ function App() {
           <h3 className="text-2xl font-bold mb-2">Deepika's Kitchen Diary</h3>
           <p className="text-gray-400 mb-4">Fresh food, made with love</p>
           <p className="text-orange-400 font-semibold">
-            Contact: 7248627794 Email: deepikaskitchendiary@gmail.com
+            Contact: 7599172232 Email: deepikaskitchendiary@gmail.com
           </p>
         </div>
       </footer>
