@@ -43,14 +43,16 @@ function App() {
     return acc;
   }, {} as Record<string, MenuItem[]>);
 
-  const categoryOrder = [
-    'Combo',
-    'Desi Snacks & Meal',
+  const categoryOrder = [ 
+    'Desi Snacks & Meal',  'Desi Snacks & Meal are only available from 10 AM to 5 PM', 
     'Pav Bhaji Special',
-    'Paratha',
-    'Sandwiches',
-    'Pizza',
     'Pasta & Chinese',
+    'Pizza',
+    'Burgers',
+    'Sandwiches',
+    'Fries & Sides',
+    'Momos',
+    'Combos',
   ];
 
   if (isCheckoutOpen) {
@@ -102,7 +104,7 @@ function App() {
           <h3 className="text-2xl font-bold mb-2">Deepika's Kitchen Diary</h3>
           <p className="text-gray-400 mb-4">Fresh food, made with love</p>
           <p className="text-orange-400 font-semibold">
-            Contact: 7599172232 Email: deepikaskitchendiary@gmail.com
+            Contact: 7248627794 Email: deepikaskitchendiary@gmail.com
           </p>
         </div>
       </footer>
